@@ -1,0 +1,20 @@
+a_list=[1,2,3,4]
+b_list=a_list*3
+c_list=a_list+[5]
+d_list=c_list.append(6)
+e_list=d_list.extend([7,8,9,10])
+f_list=e_list.insert(0,0)
+del f_list[9]
+g_list=f_list.pop(9)
+h_list=f_list[:]
+print(a_list)
+print(b_list)
+print(c_list)
+print(d_list)
+print(e_list)
+print(f_list)
+print(g_list)
+print(h_list)
+###print(i_list)
+###print(j_list)
+###print(k_list)
