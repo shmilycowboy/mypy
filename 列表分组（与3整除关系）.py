@@ -6,13 +6,11 @@ c_list = []
 while i < len(s_list):
     if s_list[i] % 3 == 0:
         a_list.append(s_list[i])
-        i += 1
     elif s_list[i] % 3 == 1:
         b_list.append(s_list[i])
-        i += 1
     else:
         c_list.append(s_list[i])
-        i += 1
-print('bei 3 zheng chu:', a_list)
-print('yushu wei 1:', b_list)
-print('yushu wei 2:', c_list)
+    i += 1
+print('被3整除:', a_list)
+print('余数为1:', b_list)
+print('余数为2:', c_list)
